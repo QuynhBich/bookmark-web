@@ -59,6 +59,9 @@
     "unplugin-vue-components": "^0.25.2",
     "vue3-google-login": "^2.0.26"
   },
+    "resolutions": {
+      "string-width": "4.2.3"
+  },
   "devDependencies": {
     "@nuxtjs/eslint-config-typescript": "^12.1.0",
     "@nuxtjs/eslint-module": "^4.1.0",
@@ -81,5 +84,8 @@
     "git": {
       "commitMessage": "chore(release): release v${version}"
     }
+  },
+  "engines": {
+    "node": ">=18"
   }
 }
